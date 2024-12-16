@@ -12,8 +12,6 @@ namespace APIProyectoFinal.Database
 
         public DbSet<Ausencia> Ausencia { get; set; }
 
-        public DbSet <EstadoLaboral> estadoLaborals { get; set; }
-
         public DbSet <Evaluacion> evaluacions { get; set; }
 
         public DbSet<Gestion> Gestions { get; set; }
