@@ -106,7 +106,7 @@ namespace APIProyectoFinal.Controllers
                 cmd.Parameters.AddWithValue("@Fecha_Nacimiento", empleado.FechaNacimiento);
                 cmd.Parameters.AddWithValue("@Fecha_Ingreso", empleado.FechaIngreso);
 
-                conn.Open();
+                conn.Open(); 
                 int rowsAffected = cmd.ExecuteNonQuery();
 
                 if (rowsAffected == 0)
